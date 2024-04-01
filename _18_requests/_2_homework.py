@@ -6,9 +6,20 @@
 #  решение
 
 import requests
+url = 'https://api.binance.com/api/v3/ticker/price'
 
-response = requests.get('https://api.binance.com/api/v3/ticker/price')
+response = requests.get(url)
 
 for ticker in response.json():
     if ticker['symbol'] == 'ETHUSDT':
-        print(ticker['price'])
+        print(float(ticker['price']))
+
+
+
+
+
+
+
+
+
+
