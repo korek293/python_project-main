@@ -2,6 +2,7 @@ fruits = ['apple', 'banana', 'cherry', 'watermelon']
 print(fruits[0])  # Outputs: 'apple'
 print(fruits[-4])  # Outputs: 'apple'
 print(fruits[3])  # Outputs: 'watermelon'
+print(fruits[5])  # Outputs: 'watermelon'
 # print(my_list[4])  # IndexError: list index out of range
 # print(my_list[-5]) # IndexError: list index out of range
 fruits[0] = 'pineapple'
